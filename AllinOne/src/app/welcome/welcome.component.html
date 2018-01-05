@@ -1,0 +1,19 @@
+<h1>You have successfully logged on</h1>
+<h1>Hi venkatesh welcome to your favourites</h1>
+
+<button  (click)="logout()">logout</button>
+<nav class='navbar navbar-nav navbar-fixed-top'>
+  <div class='container-fluid'>
+    <a class='navbar-brand'>{{pageTitle}}</a>
+    <li><input type="button" class="btn btn-primary" value='courses' [routerLink]="['/courses']"></li>
+    <li><input type="button" class="btn btn-primary" value='movies' [routerLink]="['/movies']"></li>
+    <li><input type="button" class="btn btn-primary" value='shopping' [routerLink]="['/shopping']"></li>
+    <li><input type="button" class="btn btn-primary" value='tvshows' [routerLink]="['/tvshows']"></li>
+<!--<li><input type="button" class="btn btn-primary" value='TODOS' [routerLink]="['/todos']"></li>
+<li><input type="button" class="btn btn-primary" value='COMMENTS' [routerLink]="['/comments']"></li>-->
+    
+  
+  
+  </div>
+</nav>
+
