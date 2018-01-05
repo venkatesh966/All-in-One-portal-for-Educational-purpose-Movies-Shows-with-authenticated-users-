@@ -14,7 +14,7 @@ export class MoviesComponent implements OnInit {
     let k="Englishmovies";
     let l="Hindimovies";
     if(m==v)
-    this.document.location.href = 'https://movie-rulz.desi/telugu-movie/';
+    this.document.location.href = 'https://movie-rulz./telugu-movie/';
     if(k==v)
     this.document.location.href = 'http://www.hotstar.com/movies/english-movies/5989/17';
     if(l==v)
